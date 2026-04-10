@@ -19,7 +19,9 @@ export default function TechStackPage() {
           <h2 className="mb-4 text-lg font-semibold">Frontend</h2>
           <div className="flex flex-wrap gap-2">
             {techStack.frontend.map((tech) => (
-              <Badge key={tech} variant="secondary">{tech}</Badge>
+              <Badge key={tech} variant="secondary">
+                {tech}
+              </Badge>
             ))}
           </div>
         </div>
@@ -27,7 +29,9 @@ export default function TechStackPage() {
           <h2 className="mb-4 text-lg font-semibold">Backend</h2>
           <div className="flex flex-wrap gap-2">
             {techStack.backend.map((tech) => (
-              <Badge key={tech} variant="secondary">{tech}</Badge>
+              <Badge key={tech} variant="secondary">
+                {tech}
+              </Badge>
             ))}
           </div>
         </div>
@@ -35,15 +39,9 @@ export default function TechStackPage() {
           <h2 className="mb-4 text-lg font-semibold">DevOps & Cloud</h2>
           <div className="flex flex-wrap gap-2">
             {techStack.devops.map((tech) => (
-              <Badge key={tech} variant="secondary">{tech}</Badge>
-            ))}
-          </div>
-        </div>
-        <div>
-          <h2 className="mb-4 text-lg font-semibold">3D / Game Development</h2>
-          <div className="flex flex-wrap gap-2">
-            {techStack.modeling.map((tech) => (
-              <Badge key={tech} variant="secondary">{tech}</Badge>
+              <Badge key={tech} variant="secondary">
+                {tech}
+              </Badge>
             ))}
           </div>
         </div>

@@ -1,9 +1,9 @@
 export const site = {
-  name: "Kier Patrick Empang",
+  name: "Jean Faith Marie Patula",
   location: "Butuan City, Philippines",
   tagline: "Software Engineer | Web Developer | UX/UI Designer",
   /** Optional: URL to profile image (e.g. /avatar.jpg). Leave empty for initials placeholder. */
-  avatarUrl: "" as string | undefined,
+  avatarUrl: "/images/avatar/avatar.jfif",
   /** Show verified checkmark next to name */
   verified: true,
   /** Optional: Facebook profile URL – verified badge links here when set */
@@ -16,55 +16,101 @@ export const site = {
   instagram: "https://instagram.com/yourprofile",
 };
 
-export const heroBadges: { label: string; href: string; subtitle?: string }[] = [];
+export const heroBadges: { label: string; href: string; subtitle?: string }[] =
+  [];
 
-export const about = `I am a full-stack software engineer with hands-on experience in end-to-end product development, from requirements gathering and system planning to implementation, optimization, and long-term maintenance. I am currently part of ISySS-CDM, a three-year project where I work as a senior programmer and take on key responsibilities in data gathering, software development, architecture design, and making sure the codebase remains efficient, scalable, and maintainable as the project grows.
+export const about = `I am a 4th-year BSIT student with a multidisciplinary focus on software development, web technologies, and graphic design. My academic training has given me a foundation in building functional software and responsive web applications, while my creative side drives me to craft visually engaging user interfaces and digital assets. 
 
-Beyond full-stack engineering, I also have a strong interest in immersive technologies and have previously contributed to a DOST-funded initiative, MARVELTechnologies, which focused on building AR/VR solutions through mining simulation use cases. That experience expanded my perspective on simulation-driven learning and interactive environments, and it strengthened my ability to design solutions across both traditional and emerging platforms.
-
-I also work on mobile development using React Native and Flutter, and I continue to broaden my technical focus through DevOps automation, workflow improvement, and AI-powered solutions that help teams deliver faster, smarter, and with greater consistency.`; 
+I enjoy the intersection of logic and creativity whether structuring back-end logic, designing a clean front-end layout, or creating graphics that enhance the user experience. I am passionate about learning new technologies and applying them to solve real-world problems. I am eager to contribute my skills and creativity to projects that make a positive impact, while continuously growing as a developer and designer.`;
 
 export const experience = [
-  { role: "Senior Programmer", company: "ISySS-CDM CSU", year: "2026" },
-  { role: "Systems Analyst", company: "DA-BAFE ABEMIS3.0", year: "2025" },
-  { role: "Part Time Faculty", company: "CCIS-CSU", year: "2024" },
-  { role: "Evaluator", company: "FaMRIA, DA BAFE", year: "2024" },
   {
-    role: "Master of Science in Information Tech",
+    role: "BS Information Technology",
     company: "Caraga State University",
-    year: "2024",
+    year: "2022",
   },
-  { role: "Junior Developer", company: "MARVELTechnologies", year: "2022" },
-  { role: "Admin Staff", company: "OWWA Caraga", year: "2019-2022" },
-  { role: "BS Information Technology", company: "Caraga State University", year: "2019" },
-  { role: "Hello World", company: "Started my coding journey", year: "2015" },
+  { role: "Hello World", company: "Started my coding journey", year: "2022" },
 ];
 
 export const techStack = {
-  frontend: [
-    "JavaScript",
-    "TypeScript",
-    "React",
-    "Next.js",
-    "Tailwind CSS",
-  ],
-  backend: ["Node.js", "Python", "PostgreSQL", "MongoDB"],
-  devops: ["AWS", "Docker", "Kubernetes", "GitHub Actions"],
-  modeling: [
-    "3D Modeling",
-    "Blender",
-    "Animation",
-    "Texture Editing",
-    "Unity Game Engine",
-    "C#",
-  ],
+  frontend: ["JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS"],
+  backend: ["Node.js", "Python", "PostgreSQL"],
+  devops: ["AWS", "Docker", "GitHub Actions"],
 };
 
 export const projects = [
-  { name: "ISySS-CDM", description: "CSU & PNP collaborative system platform", url: "https://isyss-cdm.web.app/", domain: "isyss-cdm.web.app" },
-  { name: "ABEMIS 3.0", description: "Agricultural & Biosystems Engineering Management Information System", url: "https://abemis-front.vercel.app/", domain: "abemis-front.vercel.app" },
-  { name: "MARVEL Technologies", description: "AR/VR technology initiative and simulation platform", url: "https://chci.carsu.edu.ph/marvel-technologies/", domain: "chci.carsu.edu.ph" },
-  { name: "DYNAMIS Workout Tracker", description: "AI-powered workout tracker", url: "https://dynamis-app.online", domain: "dynamis-app.online" },
+  {
+    name: "CSU-SmartScore",
+    description: "Thesis Project",
+    url: "https://csu-smart-score.vercel.app/",
+    domain: "csu-smart-score.vercel.app",
+  },
+  {
+    name: "MoodMap",
+    description:
+      "A mobile app that helps users track and analyze their moods over time.",
+    url: "https://mood-map-system.vercel.app/",
+    domain: "mood-map-system.vercel.app",
+  },
+  {
+    name: "IT 110 Portfolio",
+    description: "A portfolio website built for an IT 110 class project.",
+    url: "https://jfmp-atula-github-io-main-f97ksoqbt.vercel.app/",
+    domain: "jfmp-atula-github-io-main-f97ksoqbt.vercel.app",
+  },
+];
+
+export const gallery: { id: number; url: string; alt: string }[] = [
+  {
+    id: 1,
+    url: "/images/gallery/thesisdefense.jpg",
+    alt: "Gallery Image 1",
+  },
+  {
+    id: 2,
+    url: "/images/gallery/image2.jpg",
+    alt: "Gallery Image 2",
+  },
+  {
+    id: 3,
+    url: "/images/gallery/image3.jpg",
+    alt: "Gallery Image 3",
+  },
+  {
+    id: 4,
+    url: "/images/gallery/image4.jpg",
+    alt: "Gallery Image 4",
+  },
+  {
+    id: 5,
+    url: "/images/gallery/image5.jpg",
+    alt: "Gallery Image 5",
+  },
+  {
+    id: 6,
+    url: "/images/gallery/image6.jpg",
+    alt: "Gallery Image 6",
+  },
+  {
+    id: 7,
+    url: "/images/gallery/image7.jpg",
+    alt: "Gallery Image 7",
+  },
+  {
+    id: 8,
+    url: "/images/gallery/image8.jpg",
+    alt: "Gallery Image 8",
+  },
+  {
+    id: 9,
+    url: "/images/gallery/image9.jpg",
+    alt: "Gallery Image 9",
+  },
+  {
+    id: 10,
+    url: "/images/gallery/image10.jpg",
+    alt: "Gallery Image 10",
+  },
 ];
 
 export const certifications: {
@@ -72,33 +118,83 @@ export const certifications: {
   issuer: string;
   href: string;
   year?: string;
+  imageUrl: string;
 }[] = [
   {
-    name: "SPARK Technical Training for Blockchain Cryptocurrency Specialist Certification",
-    issuer: "Department of Information and Communications Technology",
+    name: "Introduction to HTML",
+    issuer: "SoloLearn",
     href: "#",
+    imageUrl: "/images/certifications/htmlcertificate.jpg",
   },
   {
-    name: "Coursera UX/UI Certification",
-    issuer: "Google",
+    name: "Introduction to CSS",
+    issuer: "SoloLearn",
     href: "#",
+    imageUrl: "/images/certifications/csscertificate.jpg",
   },
   {
-    name: "Project Management",
-    issuer: "University of the Philippines",
+    name: "Introduction to JavaScript",
+    issuer: "SoloLearn",
     href: "#",
+    imageUrl: "/images/certifications/javascriptcertificate.jpg",
+  },
+  {
+    name: "Introduction to SQL",
+    issuer: "SoloLearn",
+    href: "#",
+    imageUrl: "/images/certifications/sqlcertificate.jpg",
   },
 ];
 
 export const recommendations = [
-  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Cris Lawrence Adrian Militante", title: "ICT Director at GCM" },
-  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Ken Gorro", title: "Senior Developer at Fullscale" },
-  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Patrick Vince Velasco", title: "Software Engineer, YNS" },
-  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "John Edmerson Pizarra", title: "Jr. Full-stack Developer, PocketDevs" },
-  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Glenn Pepito", title: "Professor at University of San Carlos" },
-  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Van Honoridez", title: "Application Development Analyst at Accenture" },
-  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Zinia Ma. Consuelo R. Trinidad", title: "Web Developer, Quickway Holdings Inc." },
-  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Jomar Neri", title: "Full-stack Developer, Freelance" },
+  {
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+    author: "Cris Lawrence Adrian Militante",
+    title: "ICT Director at GCM",
+  },
+  {
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+    author: "Ken Gorro",
+    title: "Senior Developer at Fullscale",
+  },
+  {
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+    author: "Patrick Vince Velasco",
+    title: "Software Engineer, YNS",
+  },
+  {
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+    author: "John Edmerson Pizarra",
+    title: "Jr. Full-stack Developer, PocketDevs",
+  },
+  {
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+    author: "Glenn Pepito",
+    title: "Professor at University of San Carlos",
+  },
+  {
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+    author: "Van Honoridez",
+    title: "Application Development Analyst at Accenture",
+  },
+  {
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+    author: "Zinia Ma. Consuelo R. Trinidad",
+    title: "Web Developer, Quickway Holdings Inc.",
+  },
+  {
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+    author: "Jomar Neri",
+    title: "Full-stack Developer, Freelance",
+  },
 ];
 
 export const memberships = [

@@ -12,7 +12,7 @@ const navLinks = [
   { href: "#projects", label: "Projects" },
   { href: "#certifications", label: "Certifications" },
   { href: "#recommendations", label: "Recommendations" },
-  { href: "#gallery", label: "Gallery" },
+  { href: "#", label: "Gallery" },
 ];
 
 export function Header() {
