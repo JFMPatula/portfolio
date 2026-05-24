@@ -146,57 +146,6 @@ export const certifications: {
   },
 ];
 
-export const recommendations = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-    author: "Cris Lawrence Adrian Militante",
-    title: "ICT Director at GCM",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-    author: "Ken Gorro",
-    title: "Senior Developer at Fullscale",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-    author: "Patrick Vince Velasco",
-    title: "Software Engineer, YNS",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-    author: "John Edmerson Pizarra",
-    title: "Jr. Full-stack Developer, PocketDevs",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-    author: "Glenn Pepito",
-    title: "Professor at University of San Carlos",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-    author: "Van Honoridez",
-    title: "Application Development Analyst at Accenture",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-    author: "Zinia Ma. Consuelo R. Trinidad",
-    title: "Web Developer, Quickway Holdings Inc.",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-    author: "Jomar Neri",
-    title: "Full-stack Developer, Freelance",
-  },
-];
-
 export const memberships = [
   {
     name: "Philippine Society of IT Educators – Caraga Chapter",

@@ -4,7 +4,6 @@ import { Experience } from "@/components/sections/Experience";
 import { TechStack } from "@/components/sections/TechStack";
 import { Projects } from "@/components/sections/Projects";
 import { Certifications } from "@/components/sections/Certifications";
-import { Recommendations } from "@/components/sections/Recommendations";
 import { Footer } from "@/components/sections/Footer";
 import { Gallery } from "@/components/sections/Gallery";
 import { Copyright } from "@/components/sections/Copyright";
@@ -26,9 +25,8 @@ export default function Home() {
         </div>
       </div>
       <div className="container mx-auto max-w-3xl px-4">
-        <div className="grid grid-cols-1 gap-8 py-8 md:py-10 lg:grid-cols-2 lg:gap-x-8">
+        <div className="grid grid-cols-1 gap-8 py-8 md:py-10">
           <Certifications />
-          <Recommendations />
         </div>
       </div>
       <Footer />
