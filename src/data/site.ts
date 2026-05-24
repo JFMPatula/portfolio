@@ -196,10 +196,3 @@ export const recommendations = [
     title: "Full-stack Developer, Freelance",
   },
 ];
-
-export const memberships = [
-  {
-    name: "Philippine Society of IT Educators – Caraga Chapter",
-    href: "https://psite.org/",
-  },
-];
