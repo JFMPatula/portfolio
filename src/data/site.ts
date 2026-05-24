@@ -68,7 +68,7 @@ export const gallery: { id: number; url: string; alt: string }[] = [
   },
   {
     id: 2,
-    url: "/images/gallery/image2.jpg",
+    url: "/images/gallery/18presentation.jpg",
     alt: "Gallery Image 2",
   },
   {
