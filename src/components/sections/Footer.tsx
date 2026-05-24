@@ -18,7 +18,7 @@ export function Footer() {
       <div className="container mx-auto max-w-3xl px-4">
         <Card>
           <CardContent className="p-6 md:p-8">
-            <div className="grid items-start gap-10 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="grid items-start gap-10 sm:grid-cols-2">
               {/* Social Links */}
               <div>
                 <h3 className="mb-4 text-sm font-medium text-foreground">
